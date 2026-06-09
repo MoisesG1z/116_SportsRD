@@ -62,8 +62,8 @@ This template includes **rename scripts** that do everything automatically.
 2. Double-click  rename_project.bat
 3. A window opens showing:
 
-   Detected Existing Project Name:  cmp
-   Detected Existing Package Name:  com.example.cmp
+   Detected Existing Project Name:  SportsRedaccion116
+   Detected Existing Package Name:  com.sports.redaccion
 
 4. Type your NEW project name, press Enter
 5. Type your NEW package name, press Enter
@@ -88,8 +88,8 @@ chmod +x rename_project.sh
 
 It will show:
 ```
-Detected Existing Project Name: cmp
-Detected Existing Package Name: com.example.cmp
+Detected Existing Project Name: SportsRedaccion116
+Detected Existing Package Name: com.sports.redaccion
 
 Enter NEW Project Name: MyAwesomeApp
 Enter NEW Package Name: com.mycompany.awesomeapp

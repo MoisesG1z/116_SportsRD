@@ -13,7 +13,7 @@ plugins {
 kotlin {
     // Android target configured via androidLibrary block (replaces androidTarget + android{})
     androidLibrary {
-        namespace = "com.example.cmp.composeapp"
+        namespace = "com.sports.redaccion.composeapp"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
 
@@ -74,11 +74,11 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "com.example.cmp.MainKt"
+        mainClass = "com.sports.redaccion.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "com.example.cmp"
+            packageName = "com.sports.redaccion"
             packageVersion = "1.0.0"
         }
     }

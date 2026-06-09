@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cmp"
+    namespace = "com.sports.redaccion"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.example.cmp"
+        applicationId = "com.sports.redaccion"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1

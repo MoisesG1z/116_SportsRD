@@ -1,0 +1,10 @@
+{
+  "name": "sports-redaccion-firebase-deploy",
+  "private": true,
+  "dependencies": {
+    "firebase-tools": "13.29.0"
+  },
+  "overrides": {
+    "uuid": "9.0.1"
+  }
+}

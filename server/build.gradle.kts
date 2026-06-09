@@ -4,10 +4,10 @@
     application
 }
 
-group = "com.example.cmp"
+group = "com.sports.redaccion"
 version = "1.0.0"
 application {
-    mainClass.set("com.example.cmp.ApplicationKt")
+    mainClass.set("com.sports.redaccion.ApplicationKt")
     
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")

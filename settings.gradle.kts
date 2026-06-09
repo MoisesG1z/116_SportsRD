@@ -1,4 +1,4 @@
-﻿rootProject.name = "cmp"
+﻿rootProject.name = "SportsRedaccion116"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

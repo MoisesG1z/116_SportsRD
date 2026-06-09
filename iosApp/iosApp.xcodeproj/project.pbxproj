@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		09B66F19DCDDC655FFD79211 /* cmp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cmp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B66F19DCDDC655FFD79211 /* SportsRedaccion116.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsRedaccion116.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -59,7 +59,7 @@
 		987D042A10365E46A9EC9500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09B66F19DCDDC655FFD79211 /* cmp.app */,
+				09B66F19DCDDC655FFD79211 /* SportsRedaccion116.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			packageProductDependencies = (
 			);
 			productName = iosApp;
-			productReference = 09B66F19DCDDC655FFD79211 /* cmp.app */;
+			productReference = 09B66F19DCDDC655FFD79211 /* SportsRedaccion116.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
