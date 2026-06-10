@@ -10,7 +10,8 @@ import io.ktor.http.*
 import com.sports.redaccion.data.ServerFeedMonitor
 
 fun main() {
-    embeddedServer(Netty, port = SERVER_PORT, host = "0.0.0.0", module = Application::module)
+    val port = System.getenv("PORT")?.toIntOrNull() ?: SERVER_PORT
+    embeddedServer(Netty, port = port, host = "0.0.0.0", module = Application::module)
         .start(wait = true)
 }
 

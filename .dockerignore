@@ -1,0 +1,13 @@
+.git
+.gradle
+.kotlin
+.firebase
+build
+composeApp/build
+server/build
+shared/build
+node_modules
+kotlin-js-store
+Dockerfile
+.dockerignore
+webhook.txt
